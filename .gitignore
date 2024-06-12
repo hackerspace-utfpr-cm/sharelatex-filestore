@@ -36,26 +36,11 @@ Icon?
 Thumbs.db
 
 /node_modules/*
-test/IntergrationTests/js/*
 data/*/*
 
-app.js
-cluster.js
-app/js/*
-test/IntergrationTests/js/*
-test/UnitTests/js/*
+**/*.map
 cookies.txt
 uploads/*
-public/js/editor.js
-public/js/home.js
-public/js/forms.js
-public/js/gui.js
-public/js/admin.js
-public/stylesheets/mainStyle.css
-public/minjs/
-test/unit/js/
-test/acceptence/js
-cluster.js
 
 user_files/*
 template_files/*
@@ -64,3 +49,6 @@ template_files/*
 
 /log.json
 hash_folder
+
+# managed by dev-environment$ bin/update_build_scripts
+.npmrc
